@@ -21,4 +21,31 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+}
+
+.header {
+  background-color: #E7E7E2;
+}
+.header__menu {
+  display: flex;
+  gap: 20px;
+}
+.header__menu-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #0A0A0A;
+}
+.header__popup {
+  display: none;
+}
+.title {
+  color: #0A0A0A;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }/*# sourceMappingURL=index.css.map */

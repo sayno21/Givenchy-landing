@@ -1,0 +1,57 @@
+.header {
+    background-color: #E7E7E2;
+
+    &__container {
+
+    }
+
+    &__menu-wrapper {
+
+    }
+
+    &__menu {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__menu-image {
+
+    }
+
+    &__menu-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: $text-color;
+    }
+
+    &__popup {
+        display: none;
+    }
+
+    &__popup-image {
+
+    }
+
+    &__navigation {
+
+    }
+
+    &__navigation-menu {
+
+    }
+
+    &__navigation-item {
+
+    }
+
+    &__image {
+
+    }
+
+    &__button {
+
+    }
+}
