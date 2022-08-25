@@ -1,6 +1,7 @@
 $text-color: #0A0A0A;
 
-@import '../vendor/fonts/fonts';
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500&display=swap');
+// @import '../vendor/fonts/fonts';
 @import '../blocks/page';
 @import '../blocks/header';
 @import '../blocks/title';

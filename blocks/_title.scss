@@ -5,4 +5,16 @@
     line-height: 64px;
     text-transform: uppercase;
     letter-spacing: 0.04em;
+    padding: 0;
+    margin: 0;
+
+    @media screen and (max-width:1050px) {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    @media screen and (max-width:600px){
+        font-size: 24px;
+        line-height: 32px;
+    }
 }

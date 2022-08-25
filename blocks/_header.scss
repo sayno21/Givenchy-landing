@@ -2,20 +2,43 @@
     background-color: #E7E7E2;
 
     &__container {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        position: relative;
 
+        @media screen and (max-width: 1439px) {
+            grid-template-columns: repeat(3, 33%);
+        }
+        @media screen and (max-width: 450px) {
+            grid-template-columns: 1fr;
+        }
     }
 
     &__menu-wrapper {
+        position: absolute;
+        top: 18px;
+        left: 24px;
 
+        @media screen and (max-width: 1050px) {
+            left: 20px;
+        }
     }
 
     &__menu {
         display: flex;
-        gap: 20px;
+        gap: 18px;
+        cursor: pointer;
+
+        @media screen and (max-width: 600px) {
+            gap: 16px;
+        }
     }
 
-    &__menu-image {
 
+    &__menu-image {
+        @media screen and (max-width: 600px) {
+            width: 24px;
+        }
     }
 
     &__menu-text {
@@ -25,6 +48,15 @@
         letter-spacing: 0.02em;
         text-transform: uppercase;
         color: $text-color;
+        margin: 0;
+        padding: 0;
+        align-self: center;
+
+        @media screen and (max-width: 600px) {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        
     }
 
     &__popup {
@@ -48,10 +80,60 @@
     }
 
     &__image {
+        width: 700px;
+        margin-left: 25px;
 
+        @media screen and (max-width:1050px) {
+            max-width: 486px;
+            margin: 0;
+        }
+        @media screen and (max-width:600px) {
+            max-width: 320px;
+        }
     }
 
-    &__button {
+    &__text {
+        align-self: center;
+        grid-column: 3/5;
+        max-width: 700px;
+        margin: 0 0 40px 0;
 
+        @media screen and (max-width: 1439px){
+            grid-column: 2/4;
+        }
+        @media screen and (max-width:1050px){
+            max-width: 485px;
+            margin: 0 0 0 10px;
+        }
+        @media screen and (max-width: 450px){
+            grid-column: 1/2;
+           position: absolute;
+           z-index: 2;
+           top: 27%;
+           left: 10px;
+           max-width: 280px;
+        }
+       }
+
+    &__button {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background-color: $text-color;
+        padding: 12px 26px 12px 32px;
+        margin: 33px 0 0 0;
+
+        @media screen and (max-width:600px) {
+            font-size: 14px;
+            line-height: 20px;
+            padding: 12px 13px 9px 10px;
+            font-size: 14px;
+            line-height: 20px;
+            max-height: 280px;
+            margin: 30px 0 0 0;
+        }
     }
 }
