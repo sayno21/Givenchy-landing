@@ -5,7 +5,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Inter";
+  font-family: "Prompt";
   src: url("./Prompt/Prompt-Medium.woff2") format("woff2"), url("./Prompt/Prompt-Medium.woff") format("woff"), url("./Prompt/Prompt-Medium.ttf") format("ttf");
   font-weight: 500;
   font-style: normal;
