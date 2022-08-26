@@ -167,4 +167,48 @@
     font-size: 24px;
     line-height: 32px;
   }
+}
+
+.footer {
+  background-color: #0A0A0A;
+}
+.footer__container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 40px 0;
+}
+.footer__form-input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+  padding: 12px 24px;
+  width: 544px;
+  background-color: #0A0A0A;
+  border: 1px solid #FFFFFF;
+}
+.footer__form-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #0A0A0A;
+  padding: 11.5px 24px;
+  margin: 0 0 0 -12px;
+}
+.footer__checkbox-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  display: block;
 }/*# sourceMappingURL=index.css.map */

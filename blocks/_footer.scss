@@ -1,0 +1,59 @@
+.footer {
+    background-color: $dark-color;
+
+    &__container {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0;
+        padding: 40px 0;
+    }
+
+    &__form {
+
+    }
+
+    &__form-input {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #666666;
+        padding: 12px 24px;
+        width: 544px;
+        background-color: $dark-color;
+        border: 1px solid #FFFFFF;
+
+    }
+
+    &__form-button {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: $dark-color;
+        padding: 11.5px 24px;
+        margin: 0 0 0 -12px;
+
+    }
+
+    &__checkbox-label {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        display: block;
+    }
+
+    &__form-checkbox {
+        
+    }
+
+}
