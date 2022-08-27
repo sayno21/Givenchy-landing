@@ -177,6 +177,16 @@
   max-width: 700px;
   margin: 0 auto;
 }
+@media screen and (max-width: 900px) {
+  .footer__container {
+    max-width: 486px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer__container {
+    max-width: 280px;
+  }
+}
 .footer__text {
   font-weight: 400;
   font-size: 20px;
@@ -185,6 +195,12 @@
   color: #FFFFFF;
   margin: 0;
   padding: 40px 0;
+}
+@media screen and (max-width: 600px) {
+  .footer__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 .footer__form-input {
   font-weight: 400;
@@ -195,6 +211,18 @@
   width: 544px;
   background-color: #0A0A0A;
   border: 1px solid #FFFFFF;
+}
+@media screen and (max-width: 900px) {
+  .footer__form-input {
+    width: 332px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer__form-input {
+    max-width: 232px;
+    text-align: center;
+    padding: 10px 24px;
+  }
 }
 .footer__form-button {
   font-weight: 500;
@@ -213,6 +241,14 @@
   background-color: #0A0A0A;
   color: #FFFFFF;
   transition: 0.6s all;
+}
+@media screen and (max-width: 600px) {
+  .footer__form-button {
+    margin: 0;
+    padding: 12px 114px;
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 .footer__form-checkbox {
   z-index: -1;
@@ -244,4 +280,10 @@
 }
 .footer__form-checkbox:checked + .footer__checkbox-label:before {
   background: url(../images/icons/checkbox-checked.svg) 0 0 no-repeat;
+}
+@media screen and (max-width: 600px) {
+  .footer__checkbox-label {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }/*# sourceMappingURL=index.css.map */
