@@ -1,8 +1,9 @@
 $dark-color: #0A0A0A;
-
+@import url('../vendor/normalize.css');
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500&display=swap');
 
 @import '../blocks/page';
 @import '../blocks/header';
 @import '../blocks/title';
+@import '../blocks/looks';
 @import '../blocks/footer';
