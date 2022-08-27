@@ -31,9 +31,9 @@
       <img src="./images/header-image.jpg" alt="Unisex outfit" class="header__image">
       <div class="header__text">
         <h1 class="title">Givenchy spring&nbsp;summer&nbsp;2021 by&nbsp;Matthew M. Williams</h1>
-        <button class="header__button" type="button" aria-label="Subscribe button">Subscribe to collection&rsquo;s news</button>
+        <button class="header__button" type="button" aria-label="Subscribe-button">Subscribe to collection&rsquo;s news</button>
       </div>
-      
+
     </div>
   </header>
 
@@ -44,7 +44,16 @@
 
 
   <footer class="footer">
-
+    <div class="footer__container">
+      <p class="footer__text">Subscribe to the newsletterand be the first to know about new collection&rsquo;s drop date and news</p>
+      <form name="Subscribe-form" action="submit" method="post" class="footer__form">
+        <input type="email" class="footer__form-input" placeholder="Enter your email  here">
+        <button type="submit" aria-label="Submit-button" class="footer__form-button">Submit</button>
+        <input type="checkbox" id="checkbox" class="footer__form-checkbox">
+        <label for="checkbox" class="footer__checkbox-label">I consent to the processing of my data by GIVENCHY in accordance with the conditions set forth in the Privacy Policy</label>
+      </form>
+      <p class="footer__text">&copy; 2021, Givenchy. Some rights reserved</p>
+    </div>
   </footer>
   </div>
   <script src="/scripts/script.js"></script>
