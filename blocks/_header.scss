@@ -1,7 +1,11 @@
 .header {
     background-color: #E7E7E2;
 
+
     &__container {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(4, 25%);
         position: relative;
