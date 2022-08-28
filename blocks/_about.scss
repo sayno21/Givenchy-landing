@@ -3,6 +3,9 @@
 
 
   &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
   }
 
   &__header {
@@ -11,7 +14,9 @@
   }
 
   &__text {
-    min-width: 700px;
+    align-self: center;
+    max-width: 700px;
+    z-index: 2;
   }
 
   &__text_type_small {
@@ -19,6 +24,13 @@
     font-size: 20px;
     line-height: 32px;
     color: $dark-color;
+    margin: 0;
+  }
+
+  &__text_position_middle {
+    align-self: center;
+    line-height: 32px;
+    padding-bottom: 90px;
   }
 
   &__text_type_big {
@@ -35,19 +47,43 @@
 
   &__content {
     display: flex;
+    justify-content: space-between;
+    margin: 0;
+    position: relative;
+    gap: 82px;
+  }
+
+  &__content_height_middle {
+    height: 875px;
+  }
+
+  &__content_height_large {
+    height: 1095px;
   }
 
   &__blockquote {
+    margin: 0;
+    padding: 0;
 
   }
 
   &__figcaption {
-
+    margin-top: 24px;
   }
 
   &__image {
 
   }
 
+  &__image_position_right {
+    position: absolute;
+    top: 0px;
+    right: 175px;
+    z-index: 1;
+  }
+
+  &__image_position_edge {
+    right: 0px;
+  }
 
 }

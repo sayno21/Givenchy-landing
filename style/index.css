@@ -174,18 +174,31 @@
 .about {
   padding: 80px 20px 40px;
 }
+.about__container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
 .about__header {
   display: flex;
   justify-content: space-between;
 }
 .about__text {
-  min-width: 700px;
+  align-self: center;
+  max-width: 700px;
+  z-index: 2;
 }
 .about__text_type_small {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
   color: #0A0A0A;
+  margin: 0;
+}
+.about__text_position_middle {
+  align-self: center;
+  line-height: 32px;
+  padding-bottom: 90px;
 }
 .about__text_type_big {
   font-weight: 500;
@@ -199,7 +212,34 @@
 }
 .about__content {
   display: flex;
+  justify-content: space-between;
+  margin: 0;
+  position: relative;
+  gap: 82px;
 }
+.about__content_height_middle {
+  height: 875px;
+}
+.about__content_height_large {
+  height: 1095px;
+}
+.about__blockquote {
+  margin: 0;
+  padding: 0;
+}
+.about__figcaption {
+  margin-top: 24px;
+}
+.about__image_position_right {
+  position: absolute;
+  top: 0px;
+  right: 175px;
+  z-index: 1;
+}
+.about__image_position_edge {
+  right: 0px;
+}
+
 .looks {
   padding: 40px 20px 80px;
 }
