@@ -158,9 +158,6 @@
   padding: 0;
   margin: 0;
 }
-.title_type_padding {
-  padding-left: 20px;
-}
 @media screen and (max-width: 1050px) {
   .title {
     font-size: 32px;
@@ -175,20 +172,20 @@
 }
 
 .looks {
-  padding: 40px 0 80px 0;
+  padding: 40px 20px 80px;
 }
 @media screen and (max-width: 1050px) {
   .looks {
-    padding: 40px 0 60px 0;
+    padding: 40px 20px 60px;
   }
 }
 @media screen and (max-width: 600px) {
   .looks {
-    padding: 40px 0 40px 0;
+    padding: 40px 20px 40px;
   }
 }
 .looks__container {
-  margin: 40px 20px 0;
+  margin: 40px 0 0 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -203,7 +200,7 @@
   .looks__container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    margin: 20px 20px 0;
+    margin: 20px 0 0 0;
   }
 }
 .looks__image {
