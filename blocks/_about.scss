@@ -1,11 +1,18 @@
 .about {
   padding: 80px 20px 40px;
 
+  @media screen and (max-width: 1200px) {
+    padding: 60px 20px 40px;
+  }
 
   &__container {
     display: flex;
     flex-direction: column;
     gap: 80px;
+
+    @media screen and (max-width: 1200px) {
+      gap: 70px;
+    }
   }
 
   &__header {
@@ -17,6 +24,10 @@
     align-self: center;
     max-width: 700px;
     z-index: 2;
+
+    @media screen and (max-width: 1200px) {
+      max-width: 364px;
+    }
   }
 
   &__text_type_small {
@@ -39,10 +50,15 @@
     line-height: 44px;
     letter-spacing: 0.02em;
     color: $dark-color;
+
   }
 
   &__text_position_right {
     max-width: 700px;
+
+    @media screen and (max-width: 1050px) {
+      width: 364px;
+    }
   }
 
   &__content {
@@ -51,10 +67,18 @@
     margin: 0;
     position: relative;
     gap: 82px;
+
+    @media screen and (max-width: 1050px) {
+      gap: 60px;
+    }
   }
 
   &__content_height_middle {
     height: 875px;
+
+    @media screen and (max-width: 1050px) {
+      height: 552px;
+    }
   }
 
   &__content_height_large {
@@ -72,7 +96,6 @@
   }
 
   &__image {
-
   }
 
   &__image_position_right {
@@ -80,6 +103,21 @@
     top: 0px;
     right: 175px;
     z-index: 1;
+
+    @media screen and (max-width: 1050px) {
+      width: 364px;
+      height: 452px;
+      top: 50px;
+      right: 125px;
+    }
+  }
+
+  &__image_position_left {
+    @media screen and (max-width: 1050px) {
+      width: 304px;
+      height: 304px;
+      margin-top: 40px;
+    }
   }
 
   &__image_position_edge {

@@ -1,9 +1,6 @@
 @import url("../vendor/normalize.css");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400;500&display=swap");
 .page {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
   font-family: "Prompt", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -17,6 +14,9 @@
   background-color: #E7E7E2;
 }
 .header__container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 25%);
   position: relative;
@@ -171,13 +171,29 @@
   }
 }
 
+.main {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .about {
   padding: 80px 20px 40px;
+}
+@media screen and (max-width: 1200px) {
+  .about {
+    padding: 60px 20px 40px;
+  }
 }
 .about__container {
   display: flex;
   flex-direction: column;
   gap: 80px;
+}
+@media screen and (max-width: 1200px) {
+  .about__container {
+    gap: 70px;
+  }
 }
 .about__header {
   display: flex;
@@ -187,6 +203,11 @@
   align-self: center;
   max-width: 700px;
   z-index: 2;
+}
+@media screen and (max-width: 1200px) {
+  .about__text {
+    max-width: 364px;
+  }
 }
 .about__text_type_small {
   font-weight: 400;
@@ -210,6 +231,11 @@
 .about__text_position_right {
   max-width: 700px;
 }
+@media screen and (max-width: 1050px) {
+  .about__text_position_right {
+    width: 364px;
+  }
+}
 .about__content {
   display: flex;
   justify-content: space-between;
@@ -217,8 +243,18 @@
   position: relative;
   gap: 82px;
 }
+@media screen and (max-width: 1050px) {
+  .about__content {
+    gap: 60px;
+  }
+}
 .about__content_height_middle {
   height: 875px;
+}
+@media screen and (max-width: 1050px) {
+  .about__content_height_middle {
+    height: 552px;
+  }
 }
 .about__content_height_large {
   height: 1095px;
@@ -235,6 +271,21 @@
   top: 0px;
   right: 175px;
   z-index: 1;
+}
+@media screen and (max-width: 1050px) {
+  .about__image_position_right {
+    width: 364px;
+    height: 452px;
+    top: 50px;
+    right: 125px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .about__image_position_left {
+    width: 304px;
+    height: 304px;
+    margin-top: 40px;
+  }
 }
 .about__image_position_edge {
   right: 0px;
