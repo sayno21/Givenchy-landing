@@ -171,6 +171,35 @@
   }
 }
 
+.about {
+  padding: 80px 20px 40px;
+}
+.about__header {
+  display: flex;
+  justify-content: space-between;
+}
+.about__text {
+  min-width: 700px;
+}
+.about__text_type_small {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #0A0A0A;
+}
+.about__text_type_big {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  color: #0A0A0A;
+}
+.about__text_position_right {
+  max-width: 700px;
+}
+.about__content {
+  display: flex;
+}
 .looks {
   padding: 40px 20px 80px;
 }

@@ -1,0 +1,53 @@
+.about {
+  padding: 80px 20px 40px;
+
+
+  &__container {
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    min-width: 700px;
+  }
+
+  &__text_type_small {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: $dark-color;
+  }
+
+  &__text_type_big {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+    color: $dark-color;
+  }
+
+  &__text_position_right {
+    max-width: 700px;
+  }
+
+  &__content {
+    display: flex;
+  }
+
+  &__blockquote {
+
+  }
+
+  &__figcaption {
+
+  }
+
+  &__image {
+
+  }
+
+
+}
