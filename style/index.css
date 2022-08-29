@@ -259,6 +259,11 @@
 .about__content_height_large {
   height: 1095px;
 }
+@media screen and (max-width: 1050px) {
+  .about__content_height_large {
+    height: 607px;
+  }
+}
 .about__blockquote {
   margin: 0;
   padding: 0;
@@ -289,6 +294,13 @@
 }
 .about__image_position_edge {
   right: 0px;
+}
+@media screen and (max-width: 1050px) {
+  .about__image_position_edge {
+    width: 485px;
+    height: 607px;
+    top: 0px;
+  }
 }
 
 .looks {

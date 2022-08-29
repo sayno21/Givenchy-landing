@@ -83,6 +83,10 @@
 
   &__content_height_large {
     height: 1095px;
+
+    @media screen and (max-width: 1050px) {
+      height: 607px;
+    }
   }
 
   &__blockquote {
@@ -122,6 +126,11 @@
 
   &__image_position_edge {
     right: 0px;
+    @media screen and (max-width: 1050px) {
+      width: 485px;
+      height: 607px;
+      top: 0px;
+    }
   }
 
 }
