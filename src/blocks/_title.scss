@@ -1,0 +1,13 @@
+.title {
+    @include title-text-deckstop;
+    padding: 0;
+    margin: 0;
+
+    @media screen and (max-width:1050px) {
+        @include title-text-tablet;
+    }
+
+    @media screen and (max-width:600px){
+        @include title-text-mobile;
+    }
+}

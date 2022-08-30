@@ -1,0 +1,49 @@
+@mixin title-text-deckstop {
+    color: $dark-color;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+@mixin title-text-tablet {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+@mixin title-text-mobile {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+@mixin menu-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+@mixin button-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+@mixin text-type-small {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: $dark-color;
+}
+
+@mixin text-type-big {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+    color: $dark-color;
+}

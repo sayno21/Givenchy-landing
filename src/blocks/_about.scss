@@ -24,6 +24,7 @@
   &__header {
     display: flex;
     justify-content: space-between;
+
     @media screen and (max-width: 767px) {
       flex-direction: column;
       gap: 20px;
@@ -45,10 +46,7 @@
   }
 
   &__text_type_small {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: $dark-color;
+    @include text-type-small;
     margin: 0;
     @media screen and (max-width: 767px) {
       font-size: 16px;
@@ -72,11 +70,7 @@
   }
 
   &__text_type_big {
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 44px;
-    letter-spacing: 0.02em;
-    color: $dark-color;
+    @include text-type-big;
     @media screen and (max-width: 767px) {
       font-size: 20px;
       line-height: 28px;

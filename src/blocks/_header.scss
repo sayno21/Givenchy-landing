@@ -1,5 +1,5 @@
 .header {
-    background-color: #E7E7E2;
+    background-color: $light-color;
     overflow: hidden;
     max-height: 900px;
 
@@ -52,11 +52,7 @@
     }
 
     &__menu-text {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-transform: uppercase;
+        @include menu-text;
         color: $dark-color;
         margin: 0;
         padding: 0;
@@ -92,7 +88,7 @@
       padding: 20px;
       width: 480px;
       height: 810px;
-      background: #000000;
+      background: $black-color;
       position: relative;
 
       @media screen and (max-width: 767px){
@@ -138,14 +134,10 @@
     }
 
     &__navigation-item {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: uppercase;
-        color: #FFFFFF;
+        @include menu-text;
+        color: $white-color;
         cursor: pointer;
+        text-align: center;
     }
 
     &__image {
@@ -185,21 +177,17 @@
        }
 
     &__button {
-        cursor: pointer;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-transform: uppercase;
-        color: #FFFFFF;
+        @include button-text;
+        color: $white-color;
         background-color: $dark-color;
         padding: 12px 26px 12px 32px;
         margin: 33px 0 0 0;
         border: 1px solid $dark-color;
+        cursor: pointer;
 
         &:hover{
             color: $dark-color;
-            background-color: #FFFFFF;
+            background-color: $white-color;
             transition: 0.6s all;
         }
 
@@ -207,8 +195,6 @@
             font-size: 14px;
             line-height: 20px;
             padding: 12px 13px 9px 10px;
-            font-size: 14px;
-            line-height: 20px;
             max-height: 280px;
             margin: 30px 0 0 0;
         }
