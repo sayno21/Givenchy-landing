@@ -18,9 +18,9 @@
           <img src="./images/icons/desktop-icon-close.svg" alt="Close button" class="header__popup-image">
           <nav class="header__navigation">
             <ul class="header__navigation-menu">
-              <li class="header__navigation-item">About</li>
-              <li class="header__navigation-item">Looks</li>
-              <li class="header__navigation-item">Subscribe</li>
+              <li class="header__navigation-item" id="about">About</li>
+              <li class="header__navigation-item" id="looks">Looks</li>
+              <li class="header__navigation-item" id="subscribe">Subscribe</li>
             </ul>
           </nav>
         </div>
@@ -97,7 +97,7 @@
     <div class="footer__container">
       <p class="footer__text">Subscribe to the newsletterand be the first to know about new collection&rsquo;s drop date and news</p>
       <form name="Subscribe-form" action="submit" method="post" class="footer__form">
-        <input type="email" class="footer__form-input" placeholder="Enter your email  here">
+        <input type="email" id="email" class="footer__form-input" placeholder="Enter your email here">
         <button type="submit" aria-label="Submit-button" class="footer__form-button">Submit</button>
         <input type="checkbox" id="checkbox" class="footer__form-checkbox">
         <label for="checkbox" class="footer__checkbox-label">I consent to the processing of my data by GIVENCHY in accordance with the conditions set forth in the Privacy Policy</label>
