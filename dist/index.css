@@ -763,12 +763,12 @@ template {
   margin: 0;
   padding: 0;
 }
-.about__figcaption {
-  margin-top: 24px;
+.about__author {
+  margin: 24px 0 0 0;
 }
 @media screen and (max-width: 767px) {
-  .about__figcaption {
-    margin-top: 20px;
+  .about__author {
+    margin: 20px 0 0 0;
   }
 }
 @media screen and (max-width: 767px) {
