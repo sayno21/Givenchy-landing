@@ -4,9 +4,108 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/index.css">
   <title>Givenchy spring-summer 2021</title>
 </head>
 <body>
+  <div class="page">
 
+  <header class="header">
+    <div class="header__container">
+
+      <div class="header__popup">
+        <div class="header__popup-container">
+          <img src="./images/icons/desktop-icon-close.svg" alt="Close button" class="header__popup-image">
+          <nav class="header__navigation">
+            <ul class="header__navigation-menu">
+              <li class="header__navigation-item" id="about">About</li>
+              <li class="header__navigation-item" id="looks">Looks</li>
+              <li class="header__navigation-item" id="subscribe">Subscribe</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="header__menu-wrapper">
+        <div class="header__menu">
+          <img src="./images/icons/desktop-icon-menu.svg" alt="Menu icon" class="header__menu-image">
+          <p class="header__menu-text">Menu</p>
+        </div>
+      </div>
+      <img src="./images/header-image.jpg" alt="Unisex outfit" class="header__image">
+      <div class="header__text">
+        <h1 class="title">Givenchy spring&nbsp;summer&nbsp;2021 by&nbsp;Matthew M. Williams</h1>
+        <button class="header__button" type="button" aria-label="Subscribe-button">Subscribe to collection&rsquo;s news</button>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="main">
+
+    <section class="about">
+      <div class="about__container">
+        <div class="about__header">
+          <h2 class="title">About</h2>
+          <p class="about__text about__text_type_small about__text_position_right">
+          The Spring-Summer &lsquo;21 collection explores Givenchy in&nbsp;the form of a stream of&nbsp;consciousness for Williams and is&nbsp;a &lsquo;sampler&rsquo; of&nbsp;what is to come.
+          </p>
+        </div>
+
+        <figure class="about__content about__content_height_middle">
+          <div class="about__text-container fade fade_direction_right">
+            <blockquote class="about__blockquote about__text about__text_type_big">&rdquo;To&nbsp;me, fashion expresses a point of view where formality and informality, construction and comfort co-exist. My ethos is&nbsp;about the luxury of&nbsp;infusing clothes with your own personality, not being worn by them,&rdquo;</blockquote>
+            <p class="about__author about__text about__text_type_big">Matthew M. Williams.</p>
+          </div>
+          <img src="./images/women-in-red.jpg" alt="Woman in red with a golden bag" class="about__image about__image_position_right fade fade_direction_left">
+        </figure>
+
+        <figure class="about__content">
+          <img src="./images/man-in-black.jpg" alt="Man in a black outfit with a big leather bag" class="about__image about__image_position_left fade fade_direction_right">
+          <p class="about__text about__text_type_small about__text_position_middle fade fade_direction_left">
+            Matthew M. Williams reveals his vision with help from an&nbsp;all-star lineup of likeminded artists. The Creative Director called on&nbsp;close friends in his tight-knit community of&nbsp;artists. Kendall Jenner, Bella Hadid, Playboi Carti and the supermodels Anok Yai and Liam Powers were each invited to put their own stamp on&nbsp;key pieces, the better to&nbsp;highlight the importance of&nbsp;cultivating a&nbsp;powerful personal style.
+          </p>
+        </figure>
+
+        <figure class="about__content about__content_height_large">
+          <div class="about__text-container fade fade_direction_right">
+            <blockquote class="about__blockquote about__text about__text_type_big">&rdquo;In&nbsp;each of&nbsp;these portraits, a&nbsp;strong character wears a look that reflects who they are: they&rsquo;re the ones who bring the clothes to&nbsp;life.&rdquo;</blockquote>
+            <p class="about__author about__text about__text_type_big">Matthew M. Williams.</p>
+          </div>
+          <img src="./images/woman-with-naked-back.jpg" alt="Woman in light outfit with nacked back" class="about__image about__image_position_right about__image_position_edge fade fade_direction_left">
+        </figure>
+      </div>
+    </section>
+
+    <section class="looks">
+      <h2 class="title">Looks</h2>
+      <div class="looks__container">
+        <img src="./images/first-model.jpg" alt="Jacket made of crumpled fabric" class="looks__image">
+        <img src="./images/second-model.jpg" alt="Long jacket and a large bag" class="looks__image">
+        <img src="./images/third-model.jpg" alt="Massive necklace" class="looks__image">
+        <img src="./images/fourth-model.jpg" alt="Black man's look" class="looks__image">
+        <img src="./images/fifth-model.jpg" alt="White woman's look" class="looks__image">
+        <img src="./images/sixth-model.jpg" alt="The whole look of made of crumpled fabric" class="looks__image">
+        <img src="./images/seventh-model.jpg" alt="Еransparent long skirt and baggy sweater" class="looks__image">
+        <img src="./images/eighth-model.jpg" alt="A small black leather bad" class="looks__image">
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__text">Subscribe to the newsletterand be the first to know about new collection&rsquo;s drop date and news</p>
+      <form name="Subscribe-form" action="submit" method="post" class="footer__form">
+        <input type="email" id="email" class="footer__form-input" placeholder="Enter your email here" required>
+        <button type="submit" aria-label="Submit-button" class="footer__form-button">Submit</button>
+        <input type="checkbox" id="checkbox" class="footer__form-checkbox">
+        <label for="checkbox" class="footer__checkbox-label">I consent to the processing of my data by GIVENCHY in accordance with the conditions set forth in the Privacy Policy</label>
+      </form>
+      <p class="footer__text">&copy; 2021, Givenchy. Some rights reserved</p>
+    </div>
+  </footer>
+  </div>
+  <script src="/scripts/script.js"></script>
 </body>
 </html>

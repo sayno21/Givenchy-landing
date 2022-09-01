@@ -1,0 +1,16 @@
+  .fade {
+
+  &_direction_right {
+    animation: fadeInRight ease-out 3s;
+    @media screen and (max-width: 767px){
+      animation: none;
+    }
+  }
+
+  &_direction_left {
+    animation: fadeInLeft ease-out 3s;
+    @media screen and (max-width: 767px){
+      animation: none;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.looks {
+  padding: 40px 20px 80px;
+  @media screen and (max-width:1050px){
+    padding: 40px 20px 60px;
+  }
+  @media screen and (max-width:600px){
+    padding: 40px 20px 40px;
+  }
+
+  &__container {
+    margin: 40px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0px;
+
+    @media screen and (max-width:1050px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media screen and (max-width:600px) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      margin: 20px 0 0 0;
+    }
+  }
+
+  &__image {
+    width: 100%;
+
+    @media screen and (max-width:1050px){
+    &:nth-child(4) {
+      display: none;
+    }
+    &:nth-child(8) {
+      display: none;
+    }
+    @media screen and (max-width:600px) {
+      &:nth-child(4) {
+        display: block;
+      }
+      &:nth-child(8) {
+        display: block;
+      }
+    }
+  }
+
+  }
+}
