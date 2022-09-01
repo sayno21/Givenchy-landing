@@ -1,13 +1,13 @@
   .fade {
 
-  &_position_right {
+  &_direction_right {
     animation: fadeInRight ease-out 3s;
     @media screen and (max-width: 767px){
       animation: none;
     }
   }
-  
-  &_position_left {
+
+  &_direction_left {
     animation: fadeInLeft ease-out 3s;
     @media screen and (max-width: 767px){
       animation: none;

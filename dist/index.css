@@ -640,18 +640,18 @@ template {
     gap: 20px;
   }
 }
-.about__text {
+.about__text-container {
   align-self: center;
   max-width: 700px;
   z-index: 2;
 }
 @media screen and (max-width: 1200px) {
-  .about__text {
+  .about__text-container {
     max-width: 364px;
   }
 }
 @media screen and (max-width: 767px) {
-  .about__text {
+  .about__text-container {
     order: 2;
     max-width: 280px;
   }
@@ -1005,22 +1005,22 @@ template {
   }
 }
 
-.fade_position_right {
+.fade_direction_right {
   -webkit-animation: fadeInRight ease-out 3s;
           animation: fadeInRight ease-out 3s;
 }
 @media screen and (max-width: 767px) {
-  .fade_position_right {
+  .fade_direction_right {
     -webkit-animation: none;
             animation: none;
   }
 }
-.fade_position_left {
+.fade_direction_left {
   -webkit-animation: fadeInLeft ease-out 3s;
           animation: fadeInLeft ease-out 3s;
 }
 @media screen and (max-width: 767px) {
-  .fade_position_left {
+  .fade_direction_left {
     -webkit-animation: none;
             animation: none;
   }
